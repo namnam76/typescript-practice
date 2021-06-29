@@ -3,7 +3,10 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        // "strict": true,
+        // 厳しい型チェック
+        "strict": true,
+        // 暗黙的にanyの部分のチェックを外す
+        "noImplicitAny": false,
         "esModuleInterop": true,
         "lib": [
             "dom",
